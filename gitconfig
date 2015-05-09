@@ -1,0 +1,11 @@
+[user]
+	name = Carlos E. Garcia
+	email = carlos@cgarcia.org
+[core]
+	editor = vim
+[color]
+	ui = true
+[push]
+	default = simple
+[sendemail]
+	smtpserver = /usr/bin/msmtp
