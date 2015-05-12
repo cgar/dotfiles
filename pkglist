@@ -30,7 +30,6 @@ dialog
 diffutils
 e2fsprogs
 eog
-epiphany
 evince
 fakeroot
 file
@@ -150,6 +149,7 @@ pkg-config
 polari
 procps-ng
 psmisc
+python-pylint
 quadrapassel
 ranger
 reiserfsprogs
@@ -185,6 +185,7 @@ texlive-pstricks
 texlive-publishers
 texlive-science
 thunderbird
+tmux
 totem
 tracker
 tree

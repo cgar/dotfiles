@@ -47,7 +47,7 @@ alias ec='ebook-convert'
 # Ledger
 alias lbal='ledger bal'
 alias lprint='ledger print'
-alias ledit='vim ~/Documents/ledger/2014.dat'
+alias ledit='vim ~/Documents/ledger/2015.dat'
 
 # Misc
 alias getip='curl icanhazip.com'
