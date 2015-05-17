@@ -62,9 +62,10 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 " Custom commands
 :map! <F2> Signed-off-by: Carlos Garcia <carlos@cgarcia.org>
+:nnoremap <F3> "=strftime("%b %d, %Y")<CR>P
+:inoremap <F3> <C-R>=strftime("%b %d, %Y")<CR>
 map <C-n> :NERDTreeToggle<CR>
 noremap <C-F11> :set list!<CR>
-
 " Plugins
 " NerdTree - Ctrl-n
 " easymotion - ,,w
