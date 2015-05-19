@@ -69,4 +69,3 @@ noremap <C-F11> :set list!<CR>
 " Plugins
 " NerdTree - Ctrl-n
 " easymotion - ,,w
-" nerdcommenter - ,cc ,cu
