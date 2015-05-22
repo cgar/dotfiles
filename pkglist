@@ -1,6 +1,7 @@
 accerciser
 acpi
 acpid
+adwaita-icon-theme
 aisleriot
 alsa-utils
 anki
@@ -16,20 +17,23 @@ bison
 boost
 brasero
 bzip2
-cheese
 chromium
+clang
 cmake
 cmatrix
 codespell
 coreutils
 cryptsetup
+dconf-editor
 devhelp
 device-mapper
 dhcpcd
 dialog
 diffutils
 e2fsprogs
+empathy
 eog
+epiphany
 evince
 fakeroot
 file
@@ -42,6 +46,8 @@ flashplugin
 flex
 four-in-a-row
 gawk
+gcc
+gcc-libs
 gdm
 gedit
 gettext
@@ -51,9 +57,9 @@ gnome-backgrounds
 gnome-calculator
 gnome-chess
 gnome-clocks
-gnome-color-manager
 gnome-contacts
 gnome-control-center
+gnome-desktop
 gnome-devel-docs
 gnome-dictionary
 gnome-disk-utility
@@ -122,7 +128,6 @@ make
 man-db
 man-pages
 mdadm
-mesa
 mousetweaks
 mplayer
 msmtp
@@ -130,7 +135,6 @@ mutt
 mutter
 nano
 nautilus
-nautilus-sendto
 ncdu
 netctl
 nethack
@@ -189,10 +193,8 @@ tmux
 totem
 tracker
 tree
-ttf-dejavu
 ttf-ubuntu-font-family
 unrar
-unzip
 usbutils
 util-linux
 vi
@@ -209,7 +211,6 @@ xdg-user-dirs-gtk
 xf86-input-synaptics
 xf86-video-intel
 xfsprogs
-xorg-server
 xorg-server-utils
 xorg-xinit
 yelp
