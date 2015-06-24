@@ -51,6 +51,7 @@ gdm
 gedit
 gettext
 git
+gitg
 glibc
 gnome-backgrounds
 gnome-calculator
@@ -137,6 +138,7 @@ nautilus
 ncdu
 netctl
 nethack
+nginx
 ntfs-3g
 offlineimap
 openssh
@@ -146,12 +148,16 @@ pacman
 patch
 pciutils
 pcmciautils
+pep8
 perl
+pgadmin3
 pidgin
 pkg-config
 polari
+postgresql
 procps-ng
 psmisc
+python-flask
 python-pylint
 quadrapassel
 ranger
@@ -162,6 +168,7 @@ seahorse
 sed
 shadow
 s-nail
+sqliteman
 strace
 sudo
 sushi
@@ -196,6 +203,7 @@ ttf-ubuntu-font-family
 unrar
 usbutils
 util-linux
+vagrant
 vi
 vim
 vinagre
@@ -204,6 +212,7 @@ virtualbox
 vlc
 wget
 which
+wine
 wpa_supplicant
 xclip
 xdg-user-dirs-gtk
