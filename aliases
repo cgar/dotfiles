@@ -10,8 +10,7 @@ alias upd='sudo pacman -Syu'
 alias i='sudo pacman -S'
 alias r='sudo pacman -Rs'
 alias s='pacman -Ss'
-alias ss='cower -s'
-alias si='cower -d'
+alias ss='yaourt'
 alias clean='sudo pacman -Sc'
 alias clean2='sudo pacman -Rs $(pacman -Qqtd)'
 
@@ -34,10 +33,10 @@ alias tlist='sudo tarsnap --list-archives'
 alias tdel='sudo tarsnap -d -f' 
 
 # Shortcuts
-alias d="cd ~/Development"
+alias d="cd ~/Devel"
 alias dn='cd ~/Git/notes'
-alias g="cd ~/Git"
-alias gdots="cd ~/Git/dotfiles"
+alias g="cd ~/Documents/Git"
+alias gdots="cd ~/Documents/Git/dotfiles"
 alias b='cd ~/Devel/builds'
 
 # Apps
@@ -47,20 +46,16 @@ alias ec='ebook-convert'
 # Ledger
 alias lbal='ledger bal'
 alias lprint='ledger print'
-alias ledit='vim ~/Documents/ledger/2015.dat'
+alias ledit='vim ~/Documents/ledger/2016.dat'
 
 # Misc
 alias getip='curl icanhazip.com'
 alias playtng='play -n -c1 synth whitenoise lowpass -1 120 lowpass -1 120 lowpass -1 120 gain +14' # Star-Trek: TNG Enterprise background sound
-alias memory='sudo python2 ~/Git/scripts/memory.py'
+alias memory='sudo python2 ~/Documents/Git/scripts/memory.py'
 alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1' # Simple password generator
 alias riotgames='livestreamer twitch.tv/riotgames source'
 alias emailsync='offlineimap -o -q -u quiet'
-
-# ClamAV
-alias scanhome='clamscan -r -i /home'
-alias scanall="clamscan -r -i --exclude-dir='^/sys|^/proc|^/dev|^/lib|^/bin|^/sbin' /"
 
 # Igor by Warren Block 
 # http://www.wonkity.com/~wblock/igor/
@@ -69,13 +64,9 @@ alias igor2='igor -Rs `find * -name "*.*"` | less -Rs'
 alias igorxml='igor -Rs `find * -name "*.xml"` | less -RS'
 alias igormd='igor -Rs `find * -name "*.md"` | less -RS'
 
+
 # Git
 alias gfm='git fetch upstream; git merge upstream/master'
-alias gfv='git fetch upstream; git merge upstream/devel'
 alias grau='git remote add upstream'
 alias gp='git pull'
 alias gco='git checkout'
-
-# tmux
-alias tma='tmux attach -d -t'
-alias git-tmux='tmux new -s $(basename $(pwd))'

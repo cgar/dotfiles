@@ -1,3 +1,5 @@
 mutt/cache/*
 mutt/*.gpg
 mutt/mail/*
+*.db
+*.log
