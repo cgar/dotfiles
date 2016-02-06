@@ -44,18 +44,18 @@ man() {
 # notes utility
 
 n() {
-local arg files=(); for arg; do files+=( ~/"Git/notes/$arg" ); done
+local arg files=(); for arg; do files+=( ~/"Documents/Git/notes/$arg" ); done
 ${EDITOR:-vim} "${files[@]}"
 }
 
 nls() {
-tree -CR $HOME/Git/notes/
+tree -CR $HOME/Documents/Git/notes/
 }
 
 # TAB completion for notes
 _notes() {
-local files=($HOME/Git/notes/**/"$2"*)
-    [[ -e ${files[0]} ]] && COMPREPLY=( "${files[@]##~/Git/notes/}" )
+local files=($HOME/Documents/Git/notes/**/"$2"*)
+    [[ -e ${files[0]} ]] && COMPREPLY=( "${files[@]##~/Documents/Git/notes/}" )
 }
 complete -o default -F _notes n
 #source /etc/bash_completion.d/password-store
