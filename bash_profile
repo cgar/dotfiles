@@ -15,7 +15,7 @@ shopt -s nocaseglob
 export EDITOR=/usr/bin/vim
 
 PATH=$PATH:$HOME/.bin/
-PATH=$PATH:$HOME/.bin/igor-1.502/
+PATH=$PATH:$HOME/.bin/igor/
 PATH=$PATH:$HOME/Git/scripts/
 export PATH
 

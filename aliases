@@ -33,15 +33,16 @@ alias tlist='sudo tarsnap --list-archives'
 alias tdel='sudo tarsnap -d -f' 
 
 # Shortcuts
-alias d="cd ~/Devel"
+alias d="cd ~/Development"
 alias dn='cd ~/Git/notes'
 alias g="cd ~/Documents/Git"
 alias gdots="cd ~/Documents/Git/dotfiles"
-alias b='cd ~/Devel/builds'
+alias b='cd ~/Development/builds'
 
 # Apps
 alias music='mpd;ncmpcpp'
 alias ec='ebook-convert'
+alias ums='sudo bash /opt/ums/UMS.sh'
 
 # Ledger
 alias lbal='ledger bal'
