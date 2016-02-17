@@ -33,11 +33,12 @@ alias tlist='sudo tarsnap --list-archives'
 alias tdel='sudo tarsnap -d -f' 
 
 # Shortcuts
-alias d="cd ~/Development"
+alias d='cd ~/Development'
 alias dn='cd ~/Git/notes'
-alias g="cd ~/Documents/Git"
-alias gdots="cd ~/Documents/Git/dotfiles"
+alias g='cd ~/Documents/Git'
+alias gdots='cd ~/Documents/Git/dotfiles'
 alias b='cd ~/Development/builds'
+alias ds='cd ~/Documents/Git/tiny-scripts'
 
 # Apps
 alias music='mpd;ncmpcpp'
@@ -64,10 +65,11 @@ alias igor1='igor -R `find / -name "*.xml"` | less -RS'
 alias igor2='igor -Rs `find * -name "*.*"` | less -Rs'
 alias igorxml='igor -Rs `find * -name "*.xml"` | less -RS'
 alias igormd='igor -Rs `find * -name "*.md"` | less -RS'
+alias igorrs='igor -Rs `find * -name "*.rs"` | less -RS'
 
 
 # Git
-alias gfm='git fetch upstream; git merge upstream/master'
 alias grau='git remote add upstream'
+alias gfm='git fetch upstream; git merge upstream/master'
 alias gp='git pull'
 alias gco='git checkout'

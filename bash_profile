@@ -16,7 +16,7 @@ export EDITOR=/usr/bin/vim
 
 PATH=$PATH:$HOME/.bin/
 PATH=$PATH:$HOME/.bin/igor/
-PATH=$PATH:$HOME/Git/scripts/
+PATH=$PATH:$HOME/Documents/Git/scripts/
 export PATH
 
 # todo.sh bash completion
