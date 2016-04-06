@@ -3,6 +3,7 @@
 	email = carlos@cgarcia.org
 [core]
 	editor = vim
+	excludesfile = /home/cgar/.gitignore_global
 [color]
 	ui = true
 [push]

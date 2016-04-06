@@ -6,7 +6,7 @@ alias ls='ls --color=auto'
 alias la='ls -Al'
 
 # Distro Related
-alias upd='sudo pacman -Syu'
+alias upd='sudo pacman -Syu; sudo packer -Syu --auronly'
 alias i='sudo pacman -S'
 alias r='sudo pacman -Rs'
 alias s='pacman -Ss'
@@ -44,6 +44,7 @@ alias ds='cd ~/Documents/Git/tiny-scripts'
 alias music='mpd;ncmpcpp'
 alias ec='ebook-convert'
 alias ums='sudo bash /opt/ums/UMS.sh'
+alias plex='systemctl restart plexmediaserver.service'
 
 # Ledger
 alias lbal='ledger bal'
@@ -66,6 +67,7 @@ alias igor2='igor -Rs `find * -name "*.*"` | less -Rs'
 alias igorxml='igor -Rs `find * -name "*.xml"` | less -RS'
 alias igormd='igor -Rs `find * -name "*.md"` | less -RS'
 alias igorrs='igor -Rs `find * -name "*.rs"` | less -RS'
+alias igortex='igor -Rs `find * -name "*.tex"` | less -RS'
 
 
 # Git
@@ -73,3 +75,4 @@ alias grau='git remote add upstream'
 alias gfm='git fetch upstream; git merge upstream/master'
 alias gp='git pull'
 alias gco='git checkout'
+alias gts='git status'
