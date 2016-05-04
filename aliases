@@ -16,8 +16,8 @@ alias clean2='sudo pacman -Rs $(pacman -Qqtd)'
 
 # Back up the current list of non-local packages.
 # To install from this list: # pacman -S $(<pkglist)
-alias pkglist='comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > ~/Git/dotfiles/pkglist'
-alias pkglistaur='pacman -Qmq > ~/Git/dotfiles/pkglistaur'
+alias pkglist='comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > ~/Documents/Git/dotfiles/pkglist'
+alias pkglistaur='pacman -Qmq > ~/Documents/Git/dotfiles/pkglistaur'
 
 # Backups
 alias bweekly='cd ~/Git/scripts/backup-snap/; sh rbackup.sh /var/backup/weekly; cd -'
