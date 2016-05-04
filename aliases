@@ -6,7 +6,7 @@ alias ls='ls --color=auto'
 alias la='ls -Al'
 
 # Distro Related
-alias upd='sudo pacman -Syu; sudo packer -Syu --auronly'
+alias upd='sudo pacman -Syu; packer -Syu --auronly'
 alias i='sudo pacman -S'
 alias r='sudo pacman -Rs'
 alias s='pacman -Ss'
@@ -68,6 +68,8 @@ alias igorxml='igor -Rs `find * -name "*.xml"` | less -RS'
 alias igormd='igor -Rs `find * -name "*.md"` | less -RS'
 alias igorrs='igor -Rs `find * -name "*.rs"` | less -RS'
 alias igortex='igor -Rs `find * -name "*.tex"` | less -RS'
+alias igortxt='igor -Rs `find * -name "*.txt"` | less -RS'
+alias igorhtml='igor -Rs `find * -name "*.html"` | less -RS'
 
 
 # Git
