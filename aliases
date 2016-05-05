@@ -45,6 +45,7 @@ alias music='mpd;ncmpcpp'
 alias ec='ebook-convert'
 alias ums='sudo bash /opt/ums/UMS.sh'
 alias plex='systemctl restart plexmediaserver.service'
+alias restart_kde='kbuildsycoca5 && kquitapp5 plasmashell && kstart5 plasmashell'
 
 # Ledger
 alias lbal='ledger bal'
