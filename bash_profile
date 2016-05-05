@@ -14,9 +14,12 @@ shopt -s nocaseglob
 # Default Editor
 export EDITOR=/usr/bin/vim
 
+# SSH-Agent
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
 PATH=$PATH:$HOME/.bin/
 PATH=$PATH:$HOME/.bin/igor/
-PATH=$PATH:$HOME/Documents/Git/scripts/
+PATH=$PATH:$HOME/Documents/Git/tiny-scripts/
 export PATH
 
 # todo.sh bash completion
