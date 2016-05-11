@@ -34,6 +34,7 @@ set listchars=tab:>-,trail:-
 set background=dark
 "colorscheme wwdc16
 colorscheme gruvbox
+"colorscheme solarized
 
 " Toggle spell checking on and off with `,s`
 nmap <silent> <leader>s :set spell!<CR>
