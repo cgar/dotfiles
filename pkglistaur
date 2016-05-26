@@ -1,4 +1,3 @@
-agetpkg-git
 aurvote
 chromium-pepper-flash
 dropbox
@@ -14,6 +13,7 @@ kindlegen
 ncmatrix
 numix-icon-theme-git
 openage-git
+otf-fira-code
 package-query
 packer
 plex-media-server
@@ -22,10 +22,7 @@ pyfa
 python-tweepy
 python-twython
 python2-mygpoclient
-python2-tweepy
-qupzilla-git
 rust-racer
-slack-desktop
 steam-fonts
 sublime-text-dev
 tsmuxer-cli-ng
@@ -33,9 +30,7 @@ ttf-chromeosextra-font
 ttf-droid-font
 ttf-roboto-font
 ums
-vim-apprentice
-vim-colorscheme-alduin
-vim-colorscheme-mustang
+vulkan-caps-viewer
 xcowsay
 xcursor-human
 xcursor-numix

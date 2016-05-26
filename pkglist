@@ -1,3 +1,4 @@
+adobe-source-code-pro-fonts
 adobe-source-han-sans-otc-fonts
 alsa-utils
 archlinux-menus
@@ -23,16 +24,19 @@ codespell
 coreutils
 cowsay
 cryptsetup
+cython
 device-mapper
 dhcpcd
 diffutils
 e2fsprogs
 espeak
+evince
 exo
 faenza-icon-theme
 fakeroot
 feh
 file
+file-roller
 filesystem
 findutils
 firefox
@@ -42,8 +46,6 @@ flex
 fortune-mod
 garcon
 gawk
-gcc
-gcc-libs
 gettext
 glibc
 grep
@@ -60,6 +62,7 @@ hexchat
 htop
 hunspell-en
 hunspell-es
+iftop
 imagemagick
 inetutils
 intel-ucode
@@ -128,15 +131,19 @@ playonlinux
 postgresql
 procps-ng
 psmisc
+python2-xlwt
 python-django
 python-matplotlib
 python-pandas
 python-pip
 python-psycopg2
 python-pyperclip
+python-pyside
+python-scipy
 python-selenium
 python-simplejson
 python-watchdog
+python-xlwt
 qt5-webengine
 ranger
 redshift
@@ -156,6 +163,7 @@ steam
 sudo
 sysfsutils
 systemd-sysvcompat
+tamsyn-font
 tar
 tarsnap
 teamspeak3
@@ -173,6 +181,7 @@ thunar-volman
 thunderbird
 transmission-qt
 tree
+ttf-inconsolata
 tumbler
 unrar
 usbutils
@@ -237,4 +246,5 @@ xorg-xinit
 xscreensaver
 xterm
 youtube-dl
+zathura
 zip

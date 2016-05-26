@@ -39,6 +39,8 @@ alias g='cd ~/Documents/Git'
 alias gdots='cd ~/Documents/Git/dotfiles'
 alias b='cd ~/Development/builds'
 alias ds='cd ~/Documents/Git/tiny-scripts'
+alias de1='cd ~/Development/python_projects/eve-oneisk'
+alias de2='cd ~/Development/python_projects/eve-rt'
 
 # Apps
 alias music='mpd;ncmpcpp'
