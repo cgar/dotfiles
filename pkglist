@@ -28,6 +28,7 @@ cython
 device-mapper
 dhcpcd
 diffutils
+dwarffortress
 e2fsprogs
 espeak
 evince
@@ -113,7 +114,6 @@ numix-themes
 nvidia
 nvidia-settings
 openssh
-openttd
 openttd-opengfx
 openttd-opensfx
 openvpn
@@ -127,7 +127,6 @@ pcmciautils
 perl
 pidgin
 pkg-config
-playonlinux
 postgresql
 procps-ng
 psmisc
@@ -191,9 +190,6 @@ vim
 vlc
 wget
 which
-wine_gecko
-wine-mono
-winetricks
 xclip
 xdm-archlinux
 xfburn

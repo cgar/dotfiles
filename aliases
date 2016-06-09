@@ -62,6 +62,7 @@ alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1' # Simple password generator
 alias riotgames='livestreamer twitch.tv/riotgames source'
 alias emailsync='offlineimap -o -q -u quiet'
+alias wward='cd ~/Documents/Windward'
 
 # Igor by Warren Block 
 # http://www.wonkity.com/~wblock/igor/
