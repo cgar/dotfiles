@@ -1,6 +1,8 @@
+0ad
 adobe-source-code-pro-fonts
 adobe-source-han-sans-otc-fonts
 alsa-utils
+angband
 archlinux-menus
 asciiquarium
 atool
@@ -28,7 +30,6 @@ cython
 device-mapper
 dhcpcd
 diffutils
-dwarffortress
 e2fsprogs
 espeak
 evince
@@ -89,6 +90,7 @@ links
 linux
 livestreamer
 logrotate
+lshw
 lvm2
 lynx
 lyx
@@ -100,6 +102,7 @@ mdadm
 mercurial
 mesa-demos
 minetest
+mono
 mousepad
 mpd
 mpv
@@ -159,7 +162,9 @@ s-nail
 sqlitebrowser
 sqliteman
 steam
+stone-soup
 sudo
+supertuxkart
 sysfsutils
 systemd-sysvcompat
 tamsyn-font
@@ -180,6 +185,7 @@ thunar-volman
 thunderbird
 transmission-qt
 tree
+ttf-droid
 ttf-inconsolata
 tumbler
 unrar
@@ -188,8 +194,11 @@ util-linux
 vi
 vim
 vlc
+wesnoth
 wget
 which
+wine-mono
+winetricks
 xclip
 xdm-archlinux
 xfburn
