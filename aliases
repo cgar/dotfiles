@@ -10,7 +10,7 @@ alias upd='sudo pacman -Syu; packer -Syu --auronly'
 alias i='sudo pacman -S'
 alias r='sudo pacman -Rs'
 alias s='pacman -Ss'
-alias ss='yaourt'
+alias ss='packer -s'
 alias clean='sudo pacman -Sc'
 alias clean2='sudo pacman -Rs $(pacman -Qqtd)'
 
@@ -39,8 +39,6 @@ alias g='cd ~/Documents/Git'
 alias gdots='cd ~/Documents/Git/dotfiles'
 alias b='cd ~/Development/builds'
 alias ds='cd ~/Documents/Git/tiny-scripts'
-alias de1='cd ~/Development/python_projects/eve-oneisk'
-alias de2='cd ~/Development/python_projects/eve-rt'
 
 # Apps
 alias music='mpd;ncmpcpp'
@@ -60,9 +58,7 @@ alias playtng='play -n -c1 synth whitenoise lowpass -1 120 lowpass -1 120 lowpas
 alias memory='sudo python2 ~/Documents/Git/scripts/memory.py'
 alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1' # Simple password generator
-alias riotgames='livestreamer twitch.tv/riotgames source'
 alias emailsync='offlineimap -o -q -u quiet'
-alias wward='cd ~/Documents/Windward'
 
 # Igor by Warren Block 
 # http://www.wonkity.com/~wblock/igor/
