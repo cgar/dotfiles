@@ -1,5 +1,12 @@
 " Call vim-plug
 call plug#begin('~/.vim/plugged')
+Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/syntastic'
+Plug 'rust-lang/rust.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'valloric/youcompleteme'
+call plug#end()
 
 " General & Appearance
 set autoread " reload file when changes happen in other editors
@@ -59,16 +66,9 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
-" Fugitive-Vim
-" All start with :
-" Gstatus, Gcommit, Gblame, Gmove, Gremove, Glog 
-
 " Custom commands
 :map! <F2> Signed-off-by: Carlos Garcia <carlos@cgarcia.org>
 :nnoremap <F3> "=strftime("%b %d, %Y")<CR>P
 :inoremap <F3> <C-R>=strftime("%b %d, %Y")<CR>
 map <C-n> :NERDTreeToggle<CR>
 noremap <C-F11> :set list!<CR>
-" Plugins
-" NerdTree - Ctrl-n
-" easymotion - ,,w
