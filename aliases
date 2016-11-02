@@ -10,7 +10,7 @@ alias upd='sudo pacman -Syu; packer -Syu --auronly'
 alias i='sudo pacman -S'
 alias r='sudo pacman -Rs'
 alias s='pacman -Ss'
-alias ss='packer -s'
+alias ss='packer -Ss'
 alias clean='sudo pacman -Sc'
 alias clean2='sudo pacman -Rs $(pacman -Qqtd)'
 
