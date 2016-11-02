@@ -1,6 +1,5 @@
-" Call Pathogen & AutoComplete
-execute pathogen#infect()
-let g:neocomplcache_enable_at_startup = 1
+" Call vim-plug
+call plug#begin('~/.vim/plugged')
 
 " General & Appearance
 set autoread " reload file when changes happen in other editors
