@@ -54,11 +54,14 @@ alias ledit='vim ~/Documents/ledger/2016.dat'
 
 # Misc
 alias getip='curl icanhazip.com'
-alias playtng='play -n -c1 synth whitenoise lowpass -1 120 lowpass -1 120 lowpass -1 120 gain +14' # Star-Trek: TNG Enterprise background sound
 alias memory='sudo python2 ~/Documents/Git/scripts/memory.py'
 alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1' # Simple password generator
 alias emailsync='offlineimap -o -q -u quiet'
+
+# Sounds
+alias play_ocean='play -n -n --combine merge synth pinknoise band -n 1200 1800 tremolo 50 10 tremolo 0.14 70 tremolo 0.2 50 gain  -10'
+alias play_tng='play -n -c1 synth whitenoise lowpass -1 120 lowpass -1 120 lowpass -1 120 gain +14'
 
 # Igor by Warren Block 
 # http://www.wonkity.com/~wblock/igor/
