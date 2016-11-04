@@ -12,13 +12,13 @@ for file in bash_prompt exports aliases functions extra; do
 shopt -s nocaseglob
 
 # Default Editor
-export EDITOR=/usr/bin/vim
+export EDITOR=/usr/bin/nvim
 
 # SSH-Agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 PATH=$PATH:$HOME/.bin/
-PATH=$PATH:$HOME/.bin/igor/
+PATH=$PATH:$HOME/.cargo/bin
 PATH=$PATH:$HOME/Documents/Git/tiny-scripts/
 export PATH
 
@@ -31,7 +31,7 @@ if [ -f ~/.git-completion.bash ]; then
   fi
 
 
-# ---- Colored Man Pages ---- #  
+# ---- Colored Man Pages ---- #
 man() {
      env \
          LESS_TERMCAP_mb=$(printf "\e[1;31m") \
@@ -48,7 +48,7 @@ man() {
 
 n() {
 local arg files=(); for arg; do files+=( ~/"Documents/Git/notes/$arg" ); done
-${EDITOR:-vim} "${files[@]}"
+${EDITOR:-nvim} "${files[@]}"
 }
 
 nls() {

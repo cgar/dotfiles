@@ -1,5 +1,5 @@
 " Call vim-plug
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 Plug 'scrooloose/nerdtree' " Ctrl-n
 Plug 'tpope/vim-fugitive' " Gedit, Gstatus, Gdiff, Gcommit, G[v]split
 Plug 'scrooloose/nerdcommenter' " <leader>cc, cn, cspace, cm, cs
@@ -11,8 +11,8 @@ Plug 'rust-lang/rust.vim'
 Plug 'valloric/youcompleteme'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
-
 
 " General & Appearance
 set autoread " reload file when changes happen in other editors
@@ -24,6 +24,7 @@ set tabstop=4
 set shiftwidth=4
 set textwidth=80
 set expandtab
+set encoding=utf-8
 filetype on
 filetype plugin on
 filetype indent on
@@ -46,8 +47,18 @@ set listchars=tab:>-,trail:-
 set background=dark
 colorscheme gruvbox
 
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " vim-airline
 let g:airline_powerline_fonts = 1
+
+" Auto-complete
+let g:ycm_autoclose_preview_window_after_completion=1
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 " Toggle spell checking on and off with `,s`
 nmap <silent> <leader>s :set spell!<CR>

@@ -36,7 +36,6 @@ alias tdel='sudo tarsnap -d -f'
 alias d='cd ~/Development'
 alias dn='cd ~/Git/notes'
 alias g='cd ~/Documents/Git'
-alias gdots='cd ~/Documents/Git/dotfiles'
 alias b='cd ~/Development/builds'
 alias ds='cd ~/Documents/Git/tiny-scripts'
 
@@ -46,6 +45,8 @@ alias ec='ebook-convert'
 alias ums='bash /opt/ums/UMS.sh'
 alias plex='systemctl restart plexmediaserver.service'
 alias restart_kde='kbuildsycoca5 && kquitapp5 plasmashell && kstart5 plasmashell'
+alias vim='nvim'
+alias vi='nvim'
 
 # Ledger
 alias lbal='ledger bal'

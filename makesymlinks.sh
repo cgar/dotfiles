@@ -9,7 +9,8 @@
 dir=~/Documents/Git/dotfiles                  # dotfiles directory
 olddir=~/.dotfiles_old              # old dotfiles backup directory
 files="aliases bash_profile bash_prompt bashrc gitconfig gitignore_global irssi
-mpd mpdconf mutt ncmpcpp tmux.conf vim vimrc Xdefaults" # list of files/folders to symlink in homedir
+mpd mpdconf mutt ncmpcpp tmux.conf Xdefaults" # list of files/folders to symlink in homedir
+files2="nvim"
 
 ##########
 
@@ -29,4 +30,9 @@ for file in $files; do
     mv ~/.$file ~/.dotfiles_old/
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
+done
+
+for file in $files2; do
+    echo "Creating symlink to $file in home directory."
+    ln -s $dir/$file ~/.config/$file
 done
