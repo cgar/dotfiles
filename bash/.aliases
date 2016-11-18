@@ -66,14 +66,14 @@ alias play_tng='play -n -c1 synth whitenoise lowpass -1 120 lowpass -1 120 lowpa
 
 # Igor by Warren Block 
 # http://www.wonkity.com/~wblock/igor/
-alias igor1='igor -R `find / -name "*.xml"` | less -RS'
-alias igor2='igor -Rs `find * -name "*.*"` | less -Rs'
+alias igor1='igor -Rs `find * -name "*.*"` | less -Rs'
 alias igorxml='igor -Rs `find * -name "*.xml"` | less -RS'
 alias igormd='igor -Rs `find * -name "*.md"` | less -RS'
 alias igorrs='igor -Rs `find * -name "*.rs"` | less -RS'
 alias igortex='igor -Rs `find * -name "*.tex"` | less -RS'
 alias igortxt='igor -Rs `find * -name "*.txt"` | less -RS'
 alias igorhtml='igor -Rs `find * -name "*.html"` | less -RS'
+alias igorjson='igor -Rs `find * -name "*.json"` | less -RS'
 
 
 # Git

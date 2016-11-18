@@ -6,7 +6,6 @@ Plug 'scrooloose/nerdcommenter' " <leader>cc, cn, cspace, cm, cs
 Plug 'kien/ctrlp.vim' " Ctrl-p
 Plug 'chrisbra/unicode.vim' " Insert mode, type character -> C-X C-Z, C-X C-G
 Plug 'bronson/vim-trailing-whitespace' "FixWhitespace
-Plug 'scrooloose/syntastic'
 Plug 'rust-lang/rust.vim'
 Plug 'valloric/youcompleteme'
 Plug 'bling/vim-airline'
