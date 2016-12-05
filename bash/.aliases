@@ -30,7 +30,7 @@ alias tarweekly='sudo tarsnap -c -f $(date +%F)-arch-weekly --one-file-system /v
 alias taretc='sudo tarsnap -c -f $(date +%F)-arch-etc --one-file-system /var/backup/etc'
 alias tstats='sudo tarsnap --print-stats'
 alias tlist='sudo tarsnap --list-archives'
-alias tdel='sudo tarsnap -d -f' 
+alias tdel='sudo tarsnap -d -f'
 
 # Shortcuts
 alias d='cd ~/Development'
@@ -64,7 +64,7 @@ alias emailsync='offlineimap -o -q -u quiet'
 alias play_ocean='play -n -n --combine merge synth pinknoise band -n 1200 1800 tremolo 50 10 tremolo 0.14 70 tremolo 0.2 50 gain  -10'
 alias play_tng='play -n -c1 synth whitenoise lowpass -1 120 lowpass -1 120 lowpass -1 120 gain +14'
 
-# Igor by Warren Block 
+# Igor by Warren Block
 # http://www.wonkity.com/~wblock/igor/
 alias igor1='igor -Rs `find * -name "*.*"` | less -Rs'
 alias igorxml='igor -Rs `find * -name "*.xml"` | less -RS'
@@ -82,3 +82,6 @@ alias gfm='git fetch upstream; git merge upstream/master'
 alias gp='git pull'
 alias gco='git checkout'
 alias gts='git status'
+
+# qemu
+alias kvmqemu='qemu-system-x86_64 -m 4G -enable-kvm -cpu host'
