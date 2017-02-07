@@ -13,6 +13,7 @@ alias s='pacman -Ss'
 alias ss='packer -Ss'
 alias clean='sudo pacman -Sc'
 alias clean2='sudo pacman -Rs $(pacman -Qqtd)'
+alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
 
 # Back up the current list of non-local packages.
 # To install from this list: # pacman -S $(<pkglist)
@@ -47,6 +48,7 @@ alias plex='systemctl restart plexmediaserver.service'
 alias restart_kde='kbuildsycoca5 && kquitapp5 plasmashell && kstart5 plasmashell'
 alias vim='nvim'
 alias vi='nvim'
+alias eve='bash ~/Documents/EVE/evelauncher/evelauncher.sh'
 
 # Ledger
 alias lbal='ledger bal'
@@ -70,6 +72,7 @@ alias igor1='igor -Rs `find * -name "*.*"` | less -Rs'
 alias igorxml='igor -Rs `find * -name "*.xml"` | less -RS'
 alias igormd='igor -Rs `find * -name "*.md"` | less -RS'
 alias igorrs='igor -Rs `find * -name "*.rs"` | less -RS'
+alias igorrst='igor -Rs `find * -name "*.rst"` | less -RS'
 alias igortex='igor -Rs `find * -name "*.tex"` | less -RS'
 alias igortxt='igor -Rs `find * -name "*.txt"` | less -RS'
 alias igorhtml='igor -Rs `find * -name "*.html"` | less -RS'
@@ -79,6 +82,7 @@ alias igorjson='igor -Rs `find * -name "*.json"` | less -RS'
 # Git
 alias grau='git remote add upstream'
 alias gfm='git fetch upstream; git merge upstream/master'
+alias gfm2='git fetch upstream; git merge upstream/devel'
 alias gp='git pull'
 alias gco='git checkout'
 alias gts='git status'

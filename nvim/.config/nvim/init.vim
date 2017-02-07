@@ -7,10 +7,9 @@ Plug 'kien/ctrlp.vim' " Ctrl-p
 Plug 'chrisbra/unicode.vim' " Insert mode, type character -> C-X C-Z, C-X C-G
 Plug 'bronson/vim-trailing-whitespace' "FixWhitespace
 Plug 'rust-lang/rust.vim'
-Plug 'valloric/youcompleteme'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'davidhalter/jedi-vim'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 " General & Appearance
