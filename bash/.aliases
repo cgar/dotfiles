@@ -33,7 +33,7 @@ alias tstats='sudo tarsnap --print-stats'
 alias tlist='sudo tarsnap --list-archives'
 alias tdel='sudo tarsnap -d -f'
 
-# Shortcuts
+# Directories
 alias d='cd ~/Development'
 alias dn='cd ~/Git/notes'
 alias g='cd ~/Documents/Git'
@@ -45,15 +45,14 @@ alias music='mpd;ncmpcpp'
 alias ec='ebook-convert'
 alias ums='bash /opt/ums/UMS.sh'
 alias plex='systemctl restart plexmediaserver.service'
-alias restart_kde='kbuildsycoca5 && kquitapp5 plasmashell && kstart5 plasmashell'
 alias vim='nvim'
 alias vi='nvim'
-alias eve='bash ~/Documents/EVE/evelauncher/evelauncher.sh'
+alias eve='bash ~/Documents/EVE/evelauncher/evelauncher.sh &'
 
 # Ledger
 alias lbal='ledger bal'
 alias lprint='ledger print'
-alias ledit='vim ~/Documents/ledger/2016.dat'
+alias ledit='vim ~/Documents/ledger/2017.dat'
 
 # Misc
 alias getip='curl icanhazip.com'
@@ -61,6 +60,7 @@ alias memory='sudo python2 ~/Documents/Git/scripts/memory.py'
 alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1' # Simple password generator
 alias emailsync='offlineimap -o -q -u quiet'
+alias tmuxdev='tmux -s new dev'
 
 # Sounds
 alias play_ocean='play -n -n --combine merge synth pinknoise band -n 1200 1800 tremolo 50 10 tremolo 0.14 70 tremolo 0.2 50 gain  -10'
