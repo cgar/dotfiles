@@ -60,7 +60,7 @@ alias memory='sudo python2 ~/Documents/Git/scripts/memory.py'
 alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1' # Simple password generator
 alias emailsync='offlineimap -o -q -u quiet'
-alias tmuxdev='tmux -s new dev'
+alias tmuxdev='tmux new -s dev'
 
 # Sounds
 alias play_ocean='play -n -n --combine merge synth pinknoise band -n 1200 1800 tremolo 50 10 tremolo 0.14 70 tremolo 0.2 50 gain  -10'
