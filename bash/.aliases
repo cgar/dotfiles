@@ -17,8 +17,8 @@ alias srcinfo='makepkg --printsrcinfo > .SRCINFO'
 
 # Back up the current list of non-local packages.
 # To install from this list: # pacman -S $(<pkglist)
-alias pkglist='comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > ~/Documents/Git/dotfiles/pkglist'
-alias pkglistaur='pacman -Qmq > ~/Documents/Git/dotfiles/pkglistaur'
+alias pkglist='comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > pkglist'
+alias pkglistaur='pacman -Qmq > pkglistaur'
 
 # Backups
 alias bweekly='cd ~/Git/scripts/backup-snap/; sh rbackup.sh /var/backup/weekly; cd -'
