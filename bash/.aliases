@@ -21,9 +21,9 @@ alias pkglist='comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > pkglist'
 alias pkglistaur='pacman -Qmq > pkglistaur'
 
 # Backups
-alias bweekly='cd ~/Git/scripts/backup-snap/; sh rbackup.sh /var/backup/weekly; cd -'
-alias bhome='cd ~/Git/scripts/backup-snap/; sh rhome.sh /var/backup/home; cd -'
-alias betc='cd ~/Git/scripts/backup-snap/; sh retc.sh /var/backup/etc; cd -'
+alias bweekly='cd ~/Documents/Git/tiny-scripts/backup-snap/; sh rbackup.sh /var/backup/weekly; cd -'
+alias bhome='cd ~/Documents/Git/tiny-scripts/backup-snap/; sh rhome.sh /var/backup/home; cd -'
+alias betc='cd ~/Documents/Git/tiny-scripts/backup-snap/; sh retc.sh /var/backup/etc; cd -'
 
 # Tarsnap
 alias tarhome='sudo tarsnap -c -f $(date +%F)-home --one-file-system /var/backup/home'
