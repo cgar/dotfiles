@@ -9,7 +9,7 @@ flare-game-git
 gpodder3
 j4-dmenu-desktop
 jeveassets
-kakoune-git
+keybase-bin
 libc++
 libc++abi
 libc++experimental
@@ -27,3 +27,4 @@ python2-mygpoclient
 python2-podcastparser
 skypeforlinux-bin
 slack-desktop
+visual-studio-code

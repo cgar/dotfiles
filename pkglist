@@ -1,7 +1,6 @@
 aisleriot
 alsa-utils
 arc-gtk-theme
-atom
 autoconf
 automake
 baobab
@@ -15,7 +14,6 @@ bsd-games
 bzip2
 calibre
 cantata
-cargo
 chromium
 clang
 cmatrix
@@ -26,7 +24,6 @@ cryptsetup
 cups
 cups-pdf
 dconf-editor
-deadbeef
 device-mapper
 dhcpcd
 diffutils
@@ -154,7 +151,6 @@ patch
 pavucontrol
 pciutils
 pcmciautils
-pelican
 perf
 perl
 perl-anyevent-i3
@@ -173,10 +169,12 @@ python-matplotlib
 python-neovim
 python-pandas
 python-pip
+python-pylint
 python-pyperclip
 python-pytest-django
 python-scipy
 python-virtualenv
+python-xlwt
 qemu
 qtemu
 ranger
@@ -186,10 +184,10 @@ reiserfsprogs
 rhythmbox
 ristretto
 rsync
-rust
 rust-docs
 rustfmt
 rust-racer
+rustup
 rxvt-unicode
 sane
 scrapy
@@ -213,6 +211,7 @@ sysfsutils
 system-config-printer
 systemd-sysvcompat
 tar
+tarsnap
 teamspeak3
 texinfo
 texlive-bibtexextra
@@ -309,4 +308,5 @@ xorg-xdm
 xsane
 yelp
 youtube-dl
+zcash
 zip
