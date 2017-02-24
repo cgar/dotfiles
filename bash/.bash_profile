@@ -12,7 +12,7 @@ for file in bash_prompt exports aliases functions extra; do
 shopt -s nocaseglob
 
 # Default Editor
-export EDITOR=/usr/bin/nvim
+export EDITOR=/usr/local/bin/vim
 
 # SSH-Agent
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
