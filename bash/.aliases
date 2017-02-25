@@ -13,12 +13,12 @@ alias i='doas pkg_add'
 alias r='doas pkg_remove'
 
 # Tarsnap
-alias tarhome='sudo tarsnap -c -f $(date +%F)-home --one-file-system /var/backup/home'
-alias tarweekly='sudo tarsnap -c -f $(date +%F)-arch-weekly --one-file-system /var/backup/weekly'
-alias taretc='sudo tarsnap -c -f $(date +%F)-arch-etc --one-file-system /var/backup/etc'
-alias tstats='sudo tarsnap --print-stats'
-alias tlist='sudo tarsnap --list-archives'
-alias tdel='sudo tarsnap -d -f'
+alias tarhome='doas tarsnap -c -f $(date +%F)-home --one-file-system /var/backup/home'
+alias tarweekly='doas tarsnap -c -f $(date +%F)-arch-weekly --one-file-system /var/backup/weekly'
+alias taretc='doas tarsnap -c -f $(date +%F)-arch-etc --one-file-system /var/backup/etc'
+alias tstats='doas tarsnap --print-stats'
+alias tlist='doas tarsnap --list-archives'
+alias tdel='doas tarsnap -d -f'
 
 # Directories
 alias d='cd ~/code'
@@ -33,7 +33,7 @@ alias ledit='vim ~/Documents/ledger/2017.dat'
 
 # Misc
 alias getip='curl icanhazip.com'
-alias memory='sudo python2 ~/code/Git/scripts/memory.py'
+alias memory='doas python2 ~/code/Git/scripts/memory.py'
 alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1'
 alias emailsync='offlineimap -o -q -u quiet'
