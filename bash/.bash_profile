@@ -18,7 +18,7 @@ export EDITOR=/usr/local/bin/vim
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 PATH=$PATH:$HOME/.bin/
-PATH=$PATH:$HOME/.bin/igor/
+# PATH=$PATH:$HOME/.bin/igor/
 PATH=$PATH:$HOME/.cargo/bin
 PATH=$PATH:$HOME/Documents/Git/tiny-scripts/
 export PATH

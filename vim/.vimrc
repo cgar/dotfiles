@@ -43,7 +43,7 @@ set smartcase
 set laststatus=2
 set listchars=tab:>-,trail:-
 set background=dark
-colorscheme gruvbox
+colorscheme solarized-dark
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
