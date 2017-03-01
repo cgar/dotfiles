@@ -20,7 +20,7 @@ set number
 set t_Co=256
 set tabstop=4
 set shiftwidth=4
-set textwidth=80
+set textwidth=72
 set expandtab
 set encoding=utf-8
 filetype on

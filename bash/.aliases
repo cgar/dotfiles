@@ -60,5 +60,8 @@ alias gp='git pull'
 alias gco='git checkout'
 alias gts='git status'
 
+# CVS
+alias cbrief='cvs -q diff --brief'
+
 # qemu
 alias kvmqemu='qemu-system-x86_64 -m 4G -enable-kvm -cpu host'
