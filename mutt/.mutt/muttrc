@@ -10,9 +10,6 @@ set certificate_file = ~/.mail/mutt/certificates  # where to store certs
 set mailcap_path     = ~/.mutt/mailcap            # entries for filetypes
 set tmpdir           = ~/.mail/mutt/temp          # where to keep temp files
 
-# Colors
-# source $HOME/.mutt/solarized-light
-
 # HTML
 auto_view text/html
 alternative_order text/plain text/html
@@ -33,18 +30,17 @@ source $alias_file
 # General config
 set mbox_type = Maildir
 set mbox = +mbox
-set sendmail = "/usr/bin/msmtp"
+set sendmail = "/usr/sbin/sendmail"
 set folder = "~/.mail"
 set spoolfile = "+INBOX"
 set imap_check_subscribed
 set mail_check = 120
 set timeout = 300
 set imap_keepalive = 300
-set postponed = "+drafts"
-set record = "+sent"
-# source ~/.mutt/mailboxes
+set postponed = "+Drafts"
+set record = "+Sent Mail"
 bind compose p postpone-message
-set editor="vim -c"
+set editor="vim"
 bind index N search-opposite
 bind pager N search-opposite
 

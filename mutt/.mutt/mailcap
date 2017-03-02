@@ -1,1 +1,1 @@
-text/html; elinks -dump ; copiousoutput;
+text/plain; vim ;
