@@ -16,17 +16,10 @@ fn = {
 };
 
 channels = (
-  { name = "#freebsd"; chatnet = "fn"; autojoin = "yes"; },
   { name = "#python"; chatnet = "fn"; autojoin = "yes"; },
-  { name = "#ubuntu"; chatnet = "fn"; autojoin = "yes"; }
   { name = "#openbsd"; chatnet = "fn"; autojoin = "yes"; }
   { name = "##c"; chatnet = "fn"; autojoin = "yes"; }
   { name = "#ansible"; chatnet = "fn"; autojoin = "yes"; }
-  { name = "#bash"; chatnet = "fn"; autojoin = "yes"; }
-  { name = "#vim"; chatnet = "fn"; autojoin = "yes"; }
-  { name = "#postgresql"; chatnet = "fn"; autojoin = "yes"; }
-  { name = "##math"; chatnet = "fn"; autojoin = "yes"; }
-  { name = "##kernel"; chatnet = "fn"; autojoin = "yes"; }
 
 );
 
@@ -201,7 +194,7 @@ settings = {
 };
 
 # solarized settings
-hilights = ( 
+hilights = (
   { text = "cgar"; color = "%M"; nick = "yes"; word = "yes"; }
 );
 ignores = ( { level = "JOINS PARTS QUITS"; } );
