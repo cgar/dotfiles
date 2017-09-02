@@ -6,11 +6,8 @@ alias ls='ls'
 alias la='ls -Al'
 
 # Distro Related
-alias updports='cd /usr/ports && cvs -q up -Pd'
-alias updsrc='cd /usr/src && doas cvs -q up -Pd'
-alias updxeno='cd /usr/xenocara && doas cvs -q up -Pd'
 alias i='doas pkg_add'
-alias r='doas pkg_remove'
+alias r='doas pkg_delete'
 
 # Tarsnap
 alias tarhome='doas tarsnap -c -f $(date +%F)-home --one-file-system /var/backup/home'
