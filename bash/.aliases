@@ -33,7 +33,8 @@ alias getip='curl icanhazip.com'
 alias memory='doas python2 ~/code/Git/scripts/memory.py'
 alias pong='ping -c3 google.com'
 alias pwgen='tr -cd '[:alnum:]' < /dev/urandom | fold -w32 | head -n1'
-alias emailsync='offlineimap -o -q -u quiet'
+alias emailSync='offlineimap -o'
+alias emailSyncQuiet='offlineimap -o -q -u quiet'
 alias tmuxdev='tmux new -s dev'
 
 # Igor by Warren Block
