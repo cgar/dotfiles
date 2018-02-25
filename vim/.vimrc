@@ -6,10 +6,6 @@ Plug 'scrooloose/nerdcommenter' " <leader>cc, cn, cspace, cm, cs
 Plug 'kien/ctrlp.vim' " Ctrl-p
 Plug 'chrisbra/unicode.vim' " Insert mode, type character -> C-X C-Z, C-X C-G
 Plug 'bronson/vim-trailing-whitespace' "FixWhitespace
-Plug 'rust-lang/rust.vim'
-Plug 'bling/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'vimwiki/vimwiki'
 call plug#end()
 
 " General & Appearance
@@ -43,7 +39,7 @@ set smartcase
 set laststatus=2
 set listchars=tab:>-,trail:-
 set background=dark
-colorscheme solarized-dark
+colorscheme gruvbox
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
@@ -81,13 +77,3 @@ au BufNewFile,BufRead *.ldg,*.ledger setf ledger | comp ledger
 :inoremap <F3> <C-R>=strftime("%b %d, %Y")<CR>
 map <C-n> :NERDTreeToggle<CR>
 noremap <C-F11> :set list!<CR>
-
-" Syntastic recommended settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
