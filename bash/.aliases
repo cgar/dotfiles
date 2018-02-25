@@ -6,8 +6,11 @@ alias ls='ls'
 alias la='ls -Al'
 
 # Distro Related
-alias i='doas pkg_add'
-alias r='doas pkg_delete'
+alias i='sudo dnf install'
+alias r='sudo dnf remove'
+alias s='dnf search'
+alias clean='sudo dnf autoremove; sudo dnf clean packages'
+alias upd='sudo dnf upgrade'
 
 # Tarsnap
 alias tarhome='doas tarsnap -c -f $(date +%F)-home --one-file-system /var/backup/home'
@@ -18,15 +21,10 @@ alias tlist='doas tarsnap --list-archives'
 alias tdel='doas tarsnap -d -f'
 
 # Directories
-alias d='cd ~/code'
-alias g='cd ~/code/Git'
-alias b='cd ~/code/builds'
-alias ds='cd ~/code/Git/tiny-scripts'
-
-# Ledger
-alias lbal='ledger bal'
-alias lprint='ledger print'
-alias ledit='vim ~/Documents/ledger/2017.dat'
+alias d='cd ~/Code'
+alias g='cd ~/Code/Git'
+alias b='cd ~/Code/builds'
+alias ds='cd ~/Code/Git/tiny-scripts'
 
 # Misc
 alias getip='curl icanhazip.com'
