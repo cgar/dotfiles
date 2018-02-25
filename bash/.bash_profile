@@ -18,9 +18,8 @@ export EDITOR=/usr/local/bin/vim
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 PATH=$PATH:$HOME/.bin/
-# PATH=$PATH:$HOME/.bin/igor/
 PATH=$PATH:$HOME/.cargo/bin
-PATH=$PATH:$HOME/Documents/Git/tiny-scripts/
+PATH=$PATH:$HOME/code/Git/tiny-scripts/
 export PATH
 
 # todo.sh bash completion
@@ -48,18 +47,17 @@ man() {
 # notes utility
 
 n() {
-local arg files=(); for arg; do files+=( ~/"Documents/Git/notes/$arg" ); done
+local arg files=(); for arg; do files+=( ~/"Code/Git/notes/$arg" ); done
 ${EDITOR:-nvim} "${files[@]}"
 }
 
 nls() {
-tree -CR $HOME/Documents/Git/notes/
+tree -CR $HOME/Code/Git/notes/
 }
 
 # TAB completion for notes
 _notes() {
-local files=($HOME/Documents/Git/notes/**/"$2"*)
-    [[ -e ${files[0]} ]] && COMPREPLY=( "${files[@]##~/Documents/Git/notes/}" )
+local files=($HOME/Code/Git/notes/**/"$2"*)
+    [[ -e ${files[0]} ]] && COMPREPLY=( "${files[@]##~/Code/Git/notes/}" )
 }
 complete -o default -F _notes n
-#source /etc/bash_completion.d/password-store
